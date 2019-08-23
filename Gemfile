@@ -17,7 +17,9 @@ gem 'rack-cors', require: 'rack/cors'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers'  
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 group :development do
